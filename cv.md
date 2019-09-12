@@ -2,10 +2,12 @@
 Junior Front-end Developer
 ## Veronika Martinovich
 #### Contact info:
-e-mail: veranika.mart@gmail.com
-Skype: helloveronika
-Telegram: @veronika_martinovich
-Tel: +375 44 546 54 54
+
+* e-mail: veranika.mart@gmail.com
+* Skype: helloveronika
+* Telegram: @veronika_martinovich
+* Tel: +375 44 546 54 54
+
 ### Objective:
 Start a career of Junior front-end developer.
 ### Summary:
