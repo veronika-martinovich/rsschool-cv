@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Manjari';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Manjari Regular'), local('Manjari-Regular'), url(https://fonts.gstatic.com/s/manjari/v2/k3kQo8UPMOBO2w1UfcHoLnnA.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0964-0965, U+0D02-0D7F, U+200C-200D, U+20B9, U+25CC;
+}
+
+@font-face {
+  font-family: 'Manjari';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Manjari Bold'), local('Manjari-Bold'), url(https://fonts.gstatic.com/s/manjari/v2/k3kVo8UPMOBO2w1UdWLNO17hLJqM.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0964-0965, U+0D02-0D7F, U+200C-200D, U+20B9, U+25CC;
+}
+
+body {
+  background-color: #F9FBF8;
+  font-family: Manjari, Helvetica, sans-serif;
+}
+
+.name-pos {
+  height: 200px;
+  background-color: #4E504E;
+  vertical-align: middle; 
+  box-shadow: 0 6px 10px #dcdcdc;
+}
+
+.name-pos h2, h3 {
+  text-align: center;
+  color: white;
+}
+
+.name-pos h2 {
+  padding-top: 30px;
+  font-size: 48px;
+}
+
+.name-pos h3 {
+  font-size: 20px;
+}
+
+.photo {
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 3px #dcdcdc;
+  margin-top: -55px;
+  z-index: 1;
+}
+
+.summary {
+  display: block;
+  margin: auto; 
+  width: 1024px;
+  height: 310px;
+  background-color: #ffffff; 
+  box-shadow: 0 6px 6px #dcdcdc;
+  margin-top: -110px;
+}
+
+.summary p {
+  padding: 140px 30px 30px 30px; 
+  line-height: 1.7;
+  color: #4E504E;
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: #535252;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  width: 215px;
+  justify-content: space-around;
+  color: #535252;
+}
+
+.skype {
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  justify-content: space-around;
+  color: #535252;
+}
+
+.telegram {
+  display: flex;
+  flex-direction: row;
+  width: 195px;
+  justify-content: space-around;
+  color: #535252;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  width: 155px;
+  justify-content: space-around;
+  color: #535252;
+}
+
+.prof {
+  display: flex;
+  flex-direction: row;
+  width: 1024px;
+  margin: 30px auto;
+}
+
+.skills, .edu-lan {
+  margin: auto;
+  background-color: #ffffff; 
+  box-shadow: 0 6px 6px #dcdcdc;
+  padding: 15px 15px 15px 15px;
+  width: 450px;
+  height: 295px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4E504E;
+  padding: 15px 15px 15px 40px;
+  }
+
+ul {
+  list-style-type: none;
+  color: #4E504E;
+  line-height: 2.5;
+  padding-left: 15px;
+ }
+
+.edu-lan p {
+  color: #4E504E;
+  line-height: 2;
+  padding-left: 15px;
+} 
+
+.frontend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.frontend img {
+  opacity: 0.8;
+}
